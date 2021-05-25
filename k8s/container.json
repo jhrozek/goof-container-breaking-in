@@ -1,0 +1,286 @@
+[
+    {
+        "Id": "e492294f660feb82738601fdeb435d8ff9a6552cbd8206fb27f80ef57290de02",
+        "Created": "2021-04-23T18:17:19.30669171+02:00",
+        "Path": "npm",
+        "Args": [
+            "start"
+        ],
+        "State": {
+            "OciVersion": "1.0.2-dev",
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 110881,
+            "ConmonPid": 110878,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2021-04-23T18:17:19.464800418+02:00",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Healthcheck": {
+                "Status": "",
+                "FailingStreak": 0,
+                "Log": null
+            }
+        },
+        "Image": "ebdd2d223d676e9051ded6e71968340d5ba58a76339738984699a8b2db0edf5f",
+        "ImageName": "quay.io/jhrozek/goof-container",
+        "Rootfs": "",
+        "Pod": "",
+        "ResolvConfPath": "/tmp/10327/overlay-containers/e492294f660feb82738601fdeb435d8ff9a6552cbd8206fb27f80ef57290de02/userdata/resolv.conf",
+        "HostnamePath": "/tmp/10327/overlay-containers/e492294f660feb82738601fdeb435d8ff9a6552cbd8206fb27f80ef57290de02/userdata/hostname",
+        "HostsPath": "/tmp/10327/overlay-containers/e492294f660feb82738601fdeb435d8ff9a6552cbd8206fb27f80ef57290de02/userdata/hosts",
+        "StaticDir": "/home/jhrozek/.local/share/containers/storage/overlay-containers/e492294f660feb82738601fdeb435d8ff9a6552cbd8206fb27f80ef57290de02/userdata",
+        "OCIConfigPath": "/home/jhrozek/.local/share/containers/storage/overlay-containers/e492294f660feb82738601fdeb435d8ff9a6552cbd8206fb27f80ef57290de02/userdata/config.json",
+        "OCIRuntime": "crun",
+        "LogPath": "/home/jhrozek/.local/share/containers/storage/overlay-containers/e492294f660feb82738601fdeb435d8ff9a6552cbd8206fb27f80ef57290de02/userdata/ctr.log",
+        "LogTag": "",
+        "ConmonPidFile": "/tmp/10327/overlay-containers/e492294f660feb82738601fdeb435d8ff9a6552cbd8206fb27f80ef57290de02/userdata/conmon.pid",
+        "Name": "goof",
+        "RestartCount": 0,
+        "Driver": "overlay",
+        "MountLabel": "system_u:object_r:container_file_t:s0:c466,c956",
+        "ProcessLabel": "system_u:system_r:container_t:s0:c466,c956",
+        "AppArmorProfile": "",
+        "EffectiveCaps": [
+            "CAP_CHOWN",
+            "CAP_DAC_OVERRIDE",
+            "CAP_FOWNER",
+            "CAP_FSETID",
+            "CAP_KILL",
+            "CAP_NET_BIND_SERVICE",
+            "CAP_SETFCAP",
+            "CAP_SETGID",
+            "CAP_SETPCAP",
+            "CAP_SETUID",
+            "CAP_SYS_CHROOT"
+        ],
+        "BoundingCaps": [
+            "CAP_CHOWN",
+            "CAP_DAC_OVERRIDE",
+            "CAP_FOWNER",
+            "CAP_FSETID",
+            "CAP_KILL",
+            "CAP_NET_BIND_SERVICE",
+            "CAP_SETFCAP",
+            "CAP_SETGID",
+            "CAP_SETPCAP",
+            "CAP_SETUID",
+            "CAP_SYS_CHROOT"
+        ],
+        "ExecIDs": [],
+        "GraphDriver": {
+            "Name": "overlay",
+            "Data": {
+                "LowerDir": "/home/jhrozek/.local/share/containers/storage/overlay/9127059fdd32c0ab0a9b40f68d4b45c3830f4a0a0bcfd4bd35f72be9d736a77e/diff:/home/jhrozek/.local/share/containers/storage/overlay/a45e7707489ea349943388f92d6f4a0a0a6aae05973d4ca28951e56e00ee6ad8/diff:/home/jhrozek/.local/share/containers/storage/overlay/ca97b084cdaa94291cadd5000788574b939b81b58dc2226263186f3a384edc8e/diff:/home/jhrozek/.local/share/containers/storage/overlay/b125532f0425d0eba3eb0aba96853dd79773706a829db2c3bf335922f1802d62/diff:/home/jhrozek/.local/share/containers/storage/overlay/f4973e606dfa5de596f437743a1aa6c634a80be63e5140fdd02cd2b771ee4636/diff:/home/jhrozek/.local/share/containers/storage/overlay/238b5d5ec60fc681581250b1711ed3f6e8af8aa00cbfd92f53ffb4f7a763be3f/diff:/home/jhrozek/.local/share/containers/storage/overlay/3bc1cf0297dbec1c8df98729490c93719462faeba60ca09ebc40d702de34f6db/diff:/home/jhrozek/.local/share/containers/storage/overlay/54a4772154494992f6f58792d543863dda2e5a5113334e43a71dc6ace5dcaf58/diff:/home/jhrozek/.local/share/containers/storage/overlay/7737b52de86e81a6299a10b857f5bc80fe9903caf17be7f9bdd109b4d5233954/diff:/home/jhrozek/.local/share/containers/storage/overlay/56c116cdb3d29ca2b53f60fefd2bf8adb622b479269bc642c634133736900363/diff:/home/jhrozek/.local/share/containers/storage/overlay/076a3ada466a988a517946cbf859afe8853da42855bb9599978153dfad8c2bb7/diff:/home/jhrozek/.local/share/containers/storage/overlay/5f8c28271a9d62b1da9454ad16a3e82a29b07d43617198bbb24f91b2f00f047a/diff:/home/jhrozek/.local/share/containers/storage/overlay/58ef1602bf2dc5e6b079edef986590549ded06f033d9d45f9af724573ce3498c/diff",
+                "MergedDir": "/home/jhrozek/.local/share/containers/storage/overlay/197fd6e4d86881476d2ee5f25cdfaebb63b89a4f920cec7de72e88c8b362ca19/merged",
+                "UpperDir": "/home/jhrozek/.local/share/containers/storage/overlay/197fd6e4d86881476d2ee5f25cdfaebb63b89a4f920cec7de72e88c8b362ca19/diff",
+                "WorkDir": "/home/jhrozek/.local/share/containers/storage/overlay/197fd6e4d86881476d2ee5f25cdfaebb63b89a4f920cec7de72e88c8b362ca19/work"
+            }
+        },
+        "Mounts": [],
+        "Dependencies": [],
+        "NetworkSettings": {
+            "EndpointID": "",
+            "Gateway": "",
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "MacAddress": "",
+            "Bridge": "",
+            "SandboxID": "",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "3112/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "3112"
+                    }
+                ]
+            },
+            "SandboxKey": "/run/user/10327/netns/cni-7ba32068-e4ac-da9d-4e73-6591997159f5"
+        },
+        "ExitCommand": [
+            "/usr/bin/podman",
+            "--root",
+            "/home/jhrozek/.local/share/containers/storage",
+            "--runroot",
+            "/tmp/10327",
+            "--log-level",
+            "error",
+            "--cgroup-manager",
+            "systemd",
+            "--tmpdir",
+            "/run/user/10327/libpod/tmp",
+            "--runtime",
+            "crun",
+            "--storage-driver",
+            "overlay",
+            "--storage-opt",
+            "overlay.mount_program=/usr/bin/fuse-overlayfs",
+            "--storage-opt",
+            "overlay.mount_program=/usr/bin/fuse-overlayfs",
+            "--events-backend",
+            "journald",
+            "container",
+            "cleanup",
+            "--rm",
+            "e492294f660feb82738601fdeb435d8ff9a6552cbd8206fb27f80ef57290de02"
+        ],
+        "Namespace": "",
+        "IsInfra": false,
+        "Config": {
+            "Hostname": "e492294f660f",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "TERM=xterm",
+                "container=podman",
+                "NODE_VERSION=6.1.0",
+                "NPM_CONFIG_LOGLEVEL=info",
+                "HOSTNAME=e492294f660f",
+                "HOME=/root"
+            ],
+            "Cmd": [
+                "npm",
+                "start"
+            ],
+            "Image": "quay.io/jhrozek/goof-container",
+            "Volumes": null,
+            "WorkingDir": "/usr/src/goof",
+            "Entrypoint": "",
+            "OnBuild": null,
+            "Labels": {
+                "io.buildah.version": "1.18.0"
+            },
+            "Annotations": {
+                "io.container.manager": "libpod",
+                "io.kubernetes.cri-o.Created": "2021-04-23T18:17:19.30669171+02:00",
+                "io.kubernetes.cri-o.TTY": "false",
+                "io.podman.annotations.autoremove": "TRUE",
+                "io.podman.annotations.init": "FALSE",
+                "io.podman.annotations.privileged": "FALSE",
+                "io.podman.annotations.publish-all": "FALSE",
+                "io.podman.annotations.seccomp": "/tmp/goof-seccomp-legit.json",
+                "org.opencontainers.image.stopSignal": "15"
+            },
+            "StopSignal": 15,
+            "CreateCommand": [
+                "podman",
+                "run",
+                "--rm",
+                "--security-opt",
+                "seccomp=/tmp/goof-seccomp-legit.json",
+                "-p",
+                "3112:3112",
+                "--name",
+                "goof",
+                "quay.io/jhrozek/goof-container"
+            ],
+            "Umask": "0022"
+        },
+        "HostConfig": {
+            "Binds": [],
+            "CgroupManager": "systemd",
+            "CgroupMode": "private",
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "k8s-file",
+                "Config": null
+            },
+            "NetworkMode": "slirp4netns",
+            "PortBindings": {
+                "3112/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "3112"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": true,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "CapAdd": [],
+            "CapDrop": [
+                "CAP_NET_RAW",
+                "CAP_MKNOD",
+                "CAP_AUDIT_WRITE"
+            ],
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": [],
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Cgroups": "default",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "private",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": [
+                "seccomp=/tmp/goof-seccomp-legit.json"
+            ],
+            "Tmpfs": {},
+            "UTSMode": "private",
+            "UsernsMode": "",
+            "ShmSize": 65536000,
+            "Runtime": "oci",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "user.slice",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DiskQuota": 0,
+            "KernelMemory": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": 0,
+            "OomKillDisable": false,
+            "PidsLimit": 2048,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "CgroupConf": null
+        }
+    }
+]

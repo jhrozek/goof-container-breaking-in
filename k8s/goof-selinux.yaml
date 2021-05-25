@@ -12,6 +12,9 @@ spec:
     name: goof
     ports:
     - containerPort: 3112
+    securityContext:
+      seLinuxOptions:
+        type: goof_security-profiles-operator.process
     resources: {}
   dnsPolicy: ClusterFirst
   restartPolicy: Always

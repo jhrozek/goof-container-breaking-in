@@ -1,0 +1,10 @@
+apiVersion: security-profiles-operator.x-k8s.io/v1alpha1
+kind: ProfileBinding
+metadata:
+  name: goof-binding
+  namespace: security-profiles-operator
+spec:
+  profileRef:
+    kind: SeccompProfile
+    name: goof
+  image: quay.io/jhrozek/goof-container:latest

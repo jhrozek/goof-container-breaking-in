@@ -1,0 +1,11 @@
+apiVersion: security-profiles-operator.x-k8s.io/v1alpha1
+kind: SelinuxProfile
+metadata:
+  name: goof
+  namespace: security-profiles-operator
+spec:
+  policy: |
+    (blockinherit container)
+    (blockinherit restricted_net_container)
+    (allow process process ( capability ( chown dac_override fowner fsetid kill net_bind_service setfcap setgid setpcap setuid sys_chroot ))) 
+    (allow process unreserved_port_t ( tcp_socket (  name_bind ))) 
